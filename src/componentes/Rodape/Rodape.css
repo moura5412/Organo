@@ -1,0 +1,20 @@
+.rodape{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    background: url('/public/imagens/fundo.png') center center no-repeat #6278f7;
+}
+
+.rodape > *{width: auto; height: auto; position: relative; margin: 0;}
+
+.rodape .redes{display: flex; flex-wrap: wrap; justify-content: center;}
+
+.rodape .logo{width: 170px;}
+.rodape .logo img{width: 100%; height: auto; position: relative; box-sizing: border-box; object-fit: cover;}
+
+.rodape p{color: #fff; font-size: 18px;}
